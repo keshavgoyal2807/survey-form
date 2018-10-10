@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: cyan;
+}
+#one{
+  width: 70%;
+  margin: 10px auto;
+  border: 2px solid gray;
+  padding:5px;
+  background-color: white;
+  font-weight: bold;
+
+}
+#one p{
+  text-align: center;
+  font-size: 25px;
+}
+#one #form1{
+  width:100%;
+  margin:10px auto;
+  padding-left: 35%;
+}
+h1{
+  text-align: center;
+}
+#submit{
+  font-size: 30px;
+  height: 40px;
+  border-radius: 20px;
+}

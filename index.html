@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1 id="title">SURVEY FORM</h1>
+  <div id="one">
+    <p id="description">Let us Know About Quality Of Food</p>
+    <div id="form1">
+    <form id="survey-form">
+      <pre><label id="name-label">       Name: <input type="text" placeholder="Enter Your Name" id="name" required></label></pre>
+      <pre>    Roll_No: <input type="text" placeholder="Enter Your Roll No"></pre>
+      <pre><label id="email-label">      Email: <input type="email" id="email" placeholder="Enter Your email" required></label></pre>
+      <pre><label id="number-label"> Contact No: <input type="number" id="number" placeholder="Enter Your Number" max="11" min="2"></label></pre>
+      <pre>     Hostel: <select id="dropdown">
+        <option value="Gajjar Bhavan">Gajjar Bhavan</option>
+        <option value="Bhabha Bhavan">Bhabha Bhavan</option>
+        <option value="Swami Vivekanand Bhavan">Swami Vivekanand Bhavan</option>
+        <option value="Nehru Bhavan">Nehru Bhavan</option>
+        <option value="Mother Teresa Bhavan">Mother Teresa Bhavan</option>
+        <option value="Tagore Bhavan">Tagore Bhavan</option>
+      </select></pre>
+      <pre>Cleanliness: <input type="radio" name="cleanliness" value="cleanliness">Good
+             <input type="radio" name="cleanliness" value="cleanliness">Average
+             <input type="radio" name="cleanliness" value="cleanliness">Worst</pre>
+      <pre>  Places Of: <input type="checkbox" name="improve" value="Improvement">Quality
+improvement  <input type="checkbox" name="improve" value="Improvement">Service
+             <input type="checkbox" name="improve" value="Improvement">Taste
+             <input type="checkbox" name="improve" value="Improvement">Varities
+             <input type="checkbox" name="improve" value="Improvement">Infrastructure
+           </pre>
+      <pre> Additional: <textarea placeholder="Additional Comments"></textarea>
+Suggestions
+
+          <button id="submit">SUBMIT</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
