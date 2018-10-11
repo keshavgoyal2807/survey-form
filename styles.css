@@ -1,13 +1,13 @@
 body{
   margin: 0;
-  background-color: cyan;
+  background-color: red;
 }
 #one{
   width: 70%;
   margin: 10px auto;
-  border: 2px solid gray;
+  border: 2px solid black;
   padding:5px;
-  background-color: white;
+  background-color: cyan;
   font-weight: bold;
 
 }
